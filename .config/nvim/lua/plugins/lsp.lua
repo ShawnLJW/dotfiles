@@ -4,7 +4,6 @@ return {
     ensure_installed = {
       "astro",
       "lua_ls",
-      "prettierd",
       "ruff",
       "vtsls",
     },
