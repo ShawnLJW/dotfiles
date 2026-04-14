@@ -273,9 +273,10 @@ window-rule {
     draw-border-with-background false
 }
 window-rule {
-    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    match app-id=r#"zen$"# title="^Picture-in-Picture$"
     match app-id="zoom"
     open-floating true
+    default-floating-position x=16 y=16 relative-to="bottom-right"
 }
 // Open dms windows as floating by default
 window-rule {
